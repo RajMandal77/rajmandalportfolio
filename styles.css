@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+/* Subtle fade-in animation for all elements on load */
+@keyframes smoothFade {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  animation: smoothFade 1s ease-in-out;
+}
+
+/* Add gentle hover lift for all cards and items */
+.project, .item {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.project:hover, .item:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+
 body {
     background-color: #1e1e1e;
     font-family: sans-serif;
