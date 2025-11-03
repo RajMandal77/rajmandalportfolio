@@ -18,17 +18,12 @@ body {
     gap: 50px;
     padding-top: 40px;
     margin: auto;
-    transform: scale(0);
-    animation: zoom-in 1s ease forwards;
+    
 
 
 }
 
-@keyframes zoom-in{
-    100%{
-        transform: scale(1);
-    }
-}
+
 
 .sidebar {
     height: 94vh;
