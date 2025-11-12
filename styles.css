@@ -86,6 +86,7 @@ body {
 
 
 .profile p {
+.profile p {
     background-color: #1e1e1e;
     padding: 5px 15px;
     color: #ffbf00;
@@ -94,6 +95,9 @@ body {
     border-radius: 8px;
     display: inline-block;
     margin-top: 10px;
+    font-weight: bold;
+}
+
 
 }
 .hire-btn {
