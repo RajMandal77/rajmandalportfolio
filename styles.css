@@ -85,7 +85,7 @@ body {
 }
 
 
-.profile p {
+
 .profile p {
     background-color: #1e1e1e;
     padding: 5px 15px;
@@ -95,24 +95,27 @@ body {
     border-radius: 8px;
     display: inline-block;
     margin-top: 10px;
-    font-weight: bold;
+    font-weight: 3000;
+    font-size: large;
 }
 
 
-}
+
 .hire-btn {
-  text-decoration: none;
-  background:blue;
-  color: #ece7e7;
-  font-weight: 600;
-  padding: 5px 15px;
-  border: 2px solid #a0a0a0;
-  border-radius: 50px;
-  font-size: 0.9rem;
-  display: inline-block;
-  margin-top: 30px;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(49, 182, 102, 0.3);
+text-decoration: none;
+background: #0a1527;      /* Normal blue */
+color: white;
+font-weight: 1000;
+padding: 3px 7px;
+border: none;             /* Border hata diya */
+border-radius: 6px;       /* Thoda normal round */
+font-size: 0.9rem;
+display: inline-block;
+margin-top: 25px;
+transition: background 0.3s ease;
+box-shadow: none;         /* Shadow bhi hata diya */
+ 0 0 6px rgba(42, 91, 215, 0.25); /* Softer glow */
+
 }
 
 .my-btn:hover {
