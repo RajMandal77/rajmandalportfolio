@@ -46,7 +46,7 @@ body {
 
 
 .sidebar {
-    height: 94vh;
+    height: 105vh;
     background-color: #2a2a2a;
     border: 1px solid #3a3a3a;
     border-radius: 16px;
@@ -70,8 +70,8 @@ body {
 }
 
 .profile img {
-    height: 120px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     border: 7px solid #00c3ff;
 }
